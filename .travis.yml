@@ -91,6 +91,7 @@ before_script:
   - sleep 5
 
 script:
+  - composer validate --no-check-all --ansi
   - cd ./profiles/lightning
   - behat --strict --stop-on-failure
 
