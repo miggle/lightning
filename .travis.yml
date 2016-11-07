@@ -85,6 +85,7 @@ before_script:
   - git status
   - cd docroot
   - drush runserver --default-server=builtin 8080 &>/dev/null &
+  - cd ../
   # Start Selenium and dump its ginormous log into a temporary file.
   - mkdir tmp
   - selenium-server-standalone -port 4444 -log tmp/selenium2.log &
@@ -92,7 +93,7 @@ before_script:
 
 script:
   - composer validate --no-check-all --ansi
-  - cd ./profiles/lightning
+  - cd ./docroot/profiles/lightning
   - behat --strict --stop-on-failure
 
 matrix:
