@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5215e483e5197bb36eaf4a429e487249",
-    "content-hash": "d3b05d351500333ee406088eb6e02b17",
+    "hash": "3bc4178bab05cce8b198b408c683fa83",
+    "content-hash": "79e309c84e7b1e7747083ac5493f123a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4278,16 +4278,16 @@
     "packages-dev": [
         {
             "name": "acquia/blt",
-            "version": "8.5.1",
+            "version": "8.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/blt.git",
-                "reference": "d9caf298fd6288db811f8a149696e114396884e5"
+                "reference": "adfe2c5f2bb9caa7f84b1de702ed41b492e88d89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/blt/zipball/d9caf298fd6288db811f8a149696e114396884e5",
-                "reference": "d9caf298fd6288db811f8a149696e114396884e5",
+                "url": "https://api.github.com/repos/acquia/blt/zipball/adfe2c5f2bb9caa7f84b1de702ed41b492e88d89",
+                "reference": "adfe2c5f2bb9caa7f84b1de702ed41b492e88d89",
                 "shasum": ""
             },
             "require": {
@@ -4341,7 +4341,7 @@
                 "template",
                 "testing"
             ],
-            "time": "2016-11-01 18:21:20"
+            "time": "2016-11-09 21:51:08"
         },
         {
             "name": "alchemy/zippy",
@@ -5145,7 +5145,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/coder-8.x-2.9.zip",
-                "reference": "b08682bd939cf7d3ac7034bee792aa17f80e19d7",
+                "reference": null,
                 "shasum": null
             },
             "require": {
