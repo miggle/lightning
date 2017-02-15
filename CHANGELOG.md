@@ -1,3 +1,11 @@
+## 2.0.4
+* The Media Browser browser now allows you to select more than one item if the
+  cardinality is set to greater than one. (Issue #2829444)
+* Scheduled updates now clearly display what is scheduled to happen and when and
+  multiple updates can be created against a Basic Page. (Issue #2688411)
+* Fixed a bug where reverting the layout of a forward revision of a Landing Page
+  also reverted the layout of the published version. (Issue #2754649) 
+
 ## 2.0.3
 * Added the Entity Blocks module, which provides block types that can display
   any renderable entity without needing a context. This allows content editors
